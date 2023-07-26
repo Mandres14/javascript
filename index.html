@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1> Primera clase en JavaScript </h1>
+    <h2> Hola  a todos </h2>
     <script src="index.js"></script>
 
     <script>
@@ -14,30 +15,45 @@
     // Trabajando con variables Primera actividad
 
         "use strict";
-        let admin, name;
-        name = "John";
-        admin = name;
+        let admin, nombre;
+        nombre = "John";
+        admin = nombre;
         alert(admin);
 
     // Segunda actividad
 
-        let miPlaneta = "tierra";
-        let miUsuario = "Miguel";
+        let miPlaneta, miUsuario;
+        miPlaneta = "Tierra";
+        miUsuario = "Miguel";
+        alert(miPlaneta)
+        alert(miUsuario)
 
     // Tercera actividad
 
-    const birthday = '14.09.1985';
-    const age = someCode(birthday);
+   // const birthday = '14.09.1985';
+   // const age = someCode(birthday);
 
-    alert(0xff);
+    //alert(0xff);
 
     // Tipo de datos
 
-    let nam = "Miguel";
-    alert( `hello ${1}` );
-    alert( `hello ${"nam"}` );
-    alert( `hello ${nam}` );
+    let name;
+    name = "Miguel";
+    alert( `hola ${1}` );
+    alert( `hola ${"name"}` );
+    alert( `hola ${name}` );
 
+    // Conversiones de tipos
+    // BigInt
+
+    alert(1n + 2n);
+    alert(5n / 2n);
+
+    // Numeros
+
+    let billon;
+    billon = 1e9;
+    alert(523e5);
     </script>
 </body>
 </html>
